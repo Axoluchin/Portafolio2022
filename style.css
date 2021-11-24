@@ -1,0 +1,669 @@
+body {
+  background-color: #242526;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  margin: 0%;
+}
+
+a:visited {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+.Workspace {
+  background-image: url("images/alexandru-acea-rM-3w8B6qz4-unsplash.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  justify-items: center;
+  padding: 200px 0;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  margin: 0%;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.card-me {
+  padding: 1rem;
+  margin: 5% 20%;
+  display: flex;
+  align-items: center;
+}
+
+.photo-profile {
+  width: 15rem;
+  margin: 0 1rem;
+  border-radius: 2rem;
+  transition: transform 200ms;
+}
+
+.photo-profile:hover {
+  transform: scale(1.05);
+}
+
+.desc-profile {
+  margin: 0%;
+  font-size: x-large;
+}
+
+.Me{
+  color: #0a8d31;
+}
+
+.Co{
+  color: #dd3636;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin: 5rem 5rem 1rem;
+}
+
+.Exp {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 5%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Card-Exp {
+  width: 30%;
+  background-color: #343536;
+  border-radius: 1rem;
+  margin: 2% 0%;
+  transition: transform 250ms;
+}
+
+.Card-Exp:hover {
+  transform: scale(1.03);
+}
+
+.Card-Exp img {
+  height: 10rem;
+}
+
+.Card-Exp h4 {
+  margin: 1rem;
+  text-align: center;
+  font-size: larger;
+}
+
+.Card-Exp p {
+  margin: 0% 1rem;
+}
+.Card-Exp a {
+  background-color: rgb(36, 129, 211);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 00.5rem;
+}
+
+.Card-Exp ul {
+  list-style: none;
+  margin: 0% 1rem;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card-Exp li {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 5px 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.Card-Opcions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+}
+.Card-Opcions a {
+  margin: 1rem;
+}
+
+.imgDIv {
+  padding: 5%;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.CookNote {
+  background: rgb(255, 72, 72);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 72, 72, 1) 9%,
+    rgba(52, 53, 54, 0) 100%
+  );
+}
+
+.ProFlag {
+  background: rgb(42, 236, 101);
+  background: linear-gradient(
+    180deg,
+    rgba(42, 236, 101, 1) 9%,
+    rgba(52, 53, 54, 0) 100%
+  );
+}
+
+.Moon {
+  background: rgb(255, 245, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 245, 0, 1) 9%,
+    rgba(52, 53, 54, 0) 100%
+  );
+}
+
+.RN {
+  background-color: rgb(101, 152, 248);
+}
+
+.Firebase {
+  background-color: #db8738;
+}
+
+.HTML {
+  background-color: #e77d19;
+}
+
+.CSS {
+  background-color: #1972e7;
+}
+
+.JS {
+  background-color: #c5b418;
+}
+
+.Py {
+  background-color: #388bf7;
+}
+
+.Skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 5%;
+  justify-content: space-evenly;
+}
+
+.Skill-container p {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  margin: 0%;
+}
+
+.Skill {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  margin: 1rem;
+  transition: transform 250ms;
+}
+
+.Skill:hover {
+  transform: translateY(-10px);
+}
+
+.Skill img {
+  height: 9rem;
+  margin: 1rem;
+}
+
+.Red {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+
+.Red li {
+  padding: 1rem;
+  font-size: xx-large;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.Twitter {
+  transition: background-color 500ms;
+}
+
+.Twitter:hover {
+  background-color: #1a8cd8;
+}
+
+.Github {
+  transition: background-color 500ms;
+}
+
+.Github:hover {
+  background-color: #777c80;
+}
+
+.Mail {
+  transition: background-color 500ms;
+}
+
+.Mail:hover {
+  background-color: #bd4343;
+}
+
+.Instagram {
+  transition: background-color 500ms;
+}
+
+.Instagram:hover {
+  background-color: #bd43a9;
+}
+
+.Youtube {
+  transition: background-color 500ms;
+}
+
+.Youtube:hover {
+  background-color: #d43838;
+}
+
+footer {
+  background-color: #343536;
+  padding-top: 0.5rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+footer ul {
+  margin: 0%;
+  list-style: none;
+  display: flex;
+}
+
+footer li {
+  margin: 1rem 1rem;
+  color: #777c80;
+}
+
+footer a {
+  color: #777c80;
+}
+
+footer a:visited {
+  color: #777c80;
+}
+
+header {
+  background-color: #343536;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header p {
+  margin: 0% 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0%;
+}
+
+header div a {
+  margin: 0% 5px;
+  padding: 0.5rem;
+  transition: border-bottom-style 500ms;
+}
+
+.sub-title {
+  margin: 3rem 5rem;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-bottom-style: solid;
+  border-bottom-color: #525455;
+  margin-right: 50%;
+}
+
+.right-sub {
+  width: auto;
+  text-align: right;
+  margin-right: 5rem;
+  margin-left: 50%;
+}
+
+/** Modals */
+
+.modal-contenido {
+  background-color: rgb(80, 80, 80);
+  width: 50%;
+  padding: 10px 20px;
+  margin: 1rem auto;
+  position: relative;
+  border-radius: 1rem;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+}
+#CookNote:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#ProFlag:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-contenido ul {
+  padding: 0%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-contenido li {
+  background-color: #686868;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+header div a:hover {
+  border-bottom-style: solid;
+}
+
+form {
+  background-color: #343536;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+form div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+label {
+  width: 15rem;
+  text-align: center;
+  align-self: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-width: 0;
+  background-color: #717171;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  margin: 1rem;
+  flex: 1;
+}
+
+iframe{
+  width: 100%;
+  height: 20rem;
+}
+
+@media (max-width: 600px) {
+  .Workspace {
+    padding: 0%;
+  }
+  .card-me {
+    margin: 2rem 5px;
+  }
+  .desc-profile {
+    margin: 1rem 0%;
+    height: auto;
+  }
+  .photo-profile {
+    float: none;
+    width: 80%;
+    margin: 1rem 10%;
+  }
+  .card-me {
+    margin: 5%;
+    flex-wrap: wrap;
+  }
+
+  .Exp {
+    display: flex;
+    margin: 0% 5%;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .Card-Exp {
+    width: 100%;
+    background-color: #343536;
+    border-radius: 1rem;
+    margin: 1rem;
+    transition: transform 250ms;
+  }
+
+  h3 {
+    margin: 3rem 10px 1rem;
+  }
+
+  .Skill-container {
+    margin: 0%;
+  }
+
+  .Skill-container .Skill-div {
+    width: 40%;
+  }
+
+  .Skill {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+  }
+
+  .Skill img {
+    height: 7rem;
+  }
+
+  .Skill-div p {
+    font-size: x-large;
+  }
+
+  .Red li {
+    padding: 1rem;
+    font-size: x-large;
+  }
+
+  h1 {
+    font-size: large;
+  }
+  .sub-title {
+    margin: 1rem 10px;
+    font-size: large;
+  }
+
+  .right-sub {
+    margin: 1rem 10px;
+  }
+
+  .modal-contenido {
+    width: 75%;
+  }
+
+  .mySlides img:hover {
+    transform: scale(1);
+  }
+
+  form div {
+    flex-direction: column;
+  }
+  input,
+  textarea {
+    margin: 1rem 0px;
+    width: 100%;
+  }
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides img {
+  width: 30%;
+  margin: 0% 35%;
+  border-radius: 1rem;
+  transition: transform 250ms;
+}
+
+.mySlides img:hover {
+  transform: scale(1.7);
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.submit-Form {
+  flex: 0;
+  margin: 0%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
